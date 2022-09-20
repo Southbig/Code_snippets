@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("./img/IMG_4693.JPG");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  /* 배경 이미지의 위치가 뷰포트 내에서 고정할지 또는 자신의 컨테이닝 블록과 함께 스크롤할지 지정한다 */
+  background-position: center;
+  /* 각 배경의 이미지의 초기 위치를 설정한다 */
+  background-repeat: no-repeat;
+  /* 배경 이미지의 반복 방법을 지정 */
+  background-size: cover;
+  /* 요소 배경 이미지의 크기를 설정 */
+}
+</style>
+</head>
+<body>
+
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+</body>
+</html>
